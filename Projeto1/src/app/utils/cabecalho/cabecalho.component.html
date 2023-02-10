@@ -1,0 +1,29 @@
+<p> ******* COMPONENTE CABEÇALHO! *********</p>
+
+<section>
+    <div class="example-button-row">
+        <button mat-raised-button (click)="alerta()">Basic</button>
+        <button mat-raised-button color="primary"  matTooltip="Salvar as alterações">Gravar</button>
+        <button mat-raised-button color="accent">Accent</button>
+        <button mat-raised-button color="warn">Warn</button>
+        <button mat-raised-button disabled>Disabled</button>
+        <a mat-button href="https://www.google.com/" target="_blank">Link</a>
+    </div>
+    <br>
+    <div>
+        <p>
+            <mat-form-field appearance="fill">
+                <mat-label>Nome do Usuário</mat-label>
+                <input matInput placeholder="Placeholder">
+            </mat-form-field>
+        </p>
+    </div>
+
+    <mat-chip-listbox aria-label="Fish selection">
+        <mat-chip-option>Dados Pessoais</mat-chip-option>
+        <mat-chip-option>Responsáveis</mat-chip-option>
+        <mat-chip-option color="accent" selected>Documentos</mat-chip-option>
+        <mat-chip-option color="warn">Histórico</mat-chip-option>
+      </mat-chip-listbox>
+
+</section>
